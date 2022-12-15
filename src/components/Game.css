@@ -1,0 +1,37 @@
+.Game {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.Game__loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  color: #293264;
+}
+
+.Game__overview {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.Game__results {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #293264;
+}
+
+.Game__button {
+  padding: 10px 20px;
+  background: #4d5b9e;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #f5f7fb;
+}
